@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  
+}
+.App{
+  width:100%;
+  min-height: 100vh;
+  text-align: center;
+  line-height: 2.5;
+ 
+}
+.counter-app{
+  height: 500px;
+  width:500px;
+  border: 1px solid plum;
+  margin-top: 50px;
+ 
+
+}
+h1{
+  font-size: 60px;
+}
+.btn{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin-top: 60px;
+  
+}
+button{
+  background-color: blanchedalmond;
+  border:1px solid plum;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Arial",  sans-serif;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+button:hover{
+  background-color: plum;
+
+}
